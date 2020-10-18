@@ -14,27 +14,14 @@ const SignUp = ({history}) => {
             if (password.value !== confirm_password.value) {
                 throw new Error("Passwords do not match.");
             }
-            const userAuth = await app
+            await app
                 .auth()
                 .createUserWithEmailAndPassword(email.value, password.value);
-            const user = {
-                uid: userAuth.user.uid,
-                email: userAuth.user.email,
-                firstname: firstname.value,
-                lastname: lastname.value,
-                userType: 'student',
-            }
-            pushUserData(user);
           history.push("/home");
         } catch (error) {
             setError(error.toString());
         }
     }, [history]);
-
-    function pushUserData(user) {
-        app.database().ref('users/' + user.uid).set(user).catch(error =>
-            console.log(error.message));
-    }
 
     return (
         <div id="loginPage">

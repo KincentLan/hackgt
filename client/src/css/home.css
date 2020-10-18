@@ -1,0 +1,79 @@
+#dashboard {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#classes {
+    width: 80vw;
+    height: 90vh;
+    padding: 1%;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+#classes h1 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 4vh;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#dashboard {
+    margin-top: 10vh;
+}
+
+.grid-box {
+    margin-top: 5vh;
+    height: 100%;
+}
+
+#createClass {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+
+    /* Light / Black */
+    color: #373F41;
+}
+
+.option {
+    width: 15vw;
+    height: 20vh;
+
+    background: rgba(196, 196, 196, 0.29);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.option button {
+    height: 100%;
+    width: 100%;
+    border: none;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1vw;
+
+    letter-spacing: 0.1px;
+
+    color: #373F41;
+    cursor: pointer;
+}
+
+.option button:hover {
+    background-color: #DCDCDC;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}

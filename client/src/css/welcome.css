@@ -1,0 +1,53 @@
+.bodyDiv {
+    min-height: 100vh;
+}
+
+#welcome {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('BackgroundNo2.JPG');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.textbox {
+    padding: 0;
+    width: 16%;
+    float: right;
+    margin-right: 8vw;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.wellink {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+
+    font-family: Mulish, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 2vh;
+    width: 50%;
+    padding: 5%;
+
+    letter-spacing: 0.3px;
+}
+
+#signupButton {
+    background: #3C64B1;
+}

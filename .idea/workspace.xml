@@ -21,10 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae622fa-803d-4874-a866-ba5139c90965" name="Default Changelist" comment="updated to fix not function error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/SignUp/SignUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <workItem from="1602988297825" duration="309000" />
       <workItem from="1602992639560" duration="114000" />
       <workItem from="1602992759608" duration="3740000" />
-      <workItem from="1602996727962" duration="4338000" />
+      <workItem from="1602996727962" duration="17463000" />
     </task>
     <task id="LOCAL-00001" summary="auth stuff doesnt work">
       <created>1602992912394</created>
@@ -126,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602998854880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated to fix not function error">
+      <created>1603002651362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603002651362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +177,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="224" key="Github.UntrackedFilesDialog/1920.-82.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602988353637" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602998858933">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603002654644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.-82.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602998858933" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.-82.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603002654644" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602997360643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,12 +1,11 @@
 import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import Home from "../application/Home";
-import Login from "./Login";
-import SignUp from "./SignUp";
+import Login from "../pages/Login/Login";
+import SignUp from "../pages/SignUp/SignUp";
 import Test from "../Test";
 import Welcome from "../Welcome";
 import CreateClass from "../CreateClass"
-import RegisterClass from "../RegisterClass"
 import ChatDashboard from "../application/ChatDashboard";
 import Chat from "../application/Chat";
 import {AuthProvider} from "./Auth";
@@ -26,8 +25,6 @@ const App = () => {
                     <Route exact path="/signup" component={SignUp}/>
                     <Route exact path="/login" component={Login}/>
                     <PrivateRoute exact path="/CreateClass" component={CreateClass}/>
-                    {/* <Route exact path="/createAssignment" component={CreateAssignment}/> */}
-                    <Route exact path="/registerclass" component={RegisterClass}/>
                     <PrivateRoute exact path="/course/:id" component={Course}/>
                 </div>
             </Router>

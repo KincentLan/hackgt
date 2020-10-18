@@ -36,7 +36,7 @@ const Login = ({history}) => {
                 <button id="homeButton"><Link className="white" to="/">Home</Link></button>
             </div>
             <div class="formBox">
-                <h1>Log in</h1>
+                <h1>Log in OnlyFans</h1>
                 {error && (
                     <div className="error">{error}</div>
                 )}

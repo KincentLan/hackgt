@@ -17,7 +17,7 @@ const Home = () => {
         <div className="navbar">
             <div className="left-title">Dashboard</div>
             <div className="dropdown">
-                <button className="dropbtn"> OnlyFans</button>
+                <button className="dropbtn"> Only飯s</button>
                 <div className="dropdown-content">
                     <a href="#">
                         <button id="homeButton" onClick={() => app.auth().signOut()}>Sign out</button>
@@ -198,7 +198,7 @@ const MyDocument = () => {
         <Document>
             <Body wrap>
                 <Header fixed>
-                    Created by OnlyFans
+                    Created by Only飯s
                 </Header>
                 <Title>Today's Classnotes</Title>
                 <Subtitle>1. Did you play Undertale?</Subtitle>

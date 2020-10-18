@@ -29,7 +29,7 @@ const SignUp = ({history}) => {
                 <button id="homeButton"><Link className="white" to="/">Home</Link></button>
             </div>
             <div className="formBox">
-                <h1>Signup OnlyFans</h1>
+                <h1>Signup Only飯s</h1>
                 {error && (
                     <div className="error">{error}</div>
                 )}
